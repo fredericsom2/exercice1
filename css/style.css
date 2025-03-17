@@ -1,0 +1,30 @@
+
+
+header{
+    
+        background-color: black; /* Fond noir */
+        padding: 15px 0; /* Espace autour */
+        text-align: center;
+    }
+
+    /* Style de la navigation */
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 40px; /* Espacement entre les liens */
+        
+    }
+
+    /* Style des liens */
+    nav a {
+        color: white; /* Texte blanc */
+        text-decoration: none; /* Supprime le soulignement */
+        font-size: 18px;
+        font-weight: bold;
+        transition: color 0.3s ease; /* Effet de transition */
+    }
+
+    /* Changement de couleur au survol */
+    nav a:hover {
+        color: gray; /* Change en gris au survol */
+    }
